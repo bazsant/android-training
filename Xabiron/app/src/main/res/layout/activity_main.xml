@@ -32,19 +32,25 @@
         android:layout_below="@id/tv_text1"
         android:text="Botaoo"/>
 
+        <EditText
+            android:id="@+id/et_textoEnv"
+            android:layout_below="@id/bt_butao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
         <Button
-            android:id="@+id/bt_butao2"
+            android:id="@+id/bt_enviar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/bt_butao"
-            android:text="Botaoo2"/>
+            android:layout_below="@id/et_textoEnv"
+            android:text="Enviar"/>
 
         <ImageView
             android:id="@+id/img01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_launcher_background"
-            android:layout_below="@id/bt_butao2"
+            android:layout_below="@id/bt_enviar"
             android:layout_centerInParent="true"/>
 
     </RelativeLayout>

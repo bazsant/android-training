@@ -12,7 +12,7 @@
 
     <Button
         android:id="@+id/bt_butao"
-        android:text="butao novo"
+        android:text="Fechar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_texto"
@@ -20,7 +20,7 @@
         android:layout_centerInParent="true"/>
 
         <TextView
-            android:text="textoooooooo"
+            android:text="defaut"
             android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
             android:id="@+id/tv_texto"
